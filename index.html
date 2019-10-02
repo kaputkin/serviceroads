@@ -152,7 +152,7 @@
         });
         osmGeocoder.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/CompareRoadsMapDataPerMile_1.png" /> Compare Roads Map Data Per Mile': layer_CompareRoadsMapDataPerMile_1,'<img src="legend/ServiceRoadsMapDataPerMile_0.png" /> Service Roads Map Data Per Mile': layer_ServiceRoadsMapDataPerMile_0,},{collapsed:false}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/ServiceRoadsMapDataPerMile_0.png" /> Compare Roads Map Data Per Mile': layer_CompareRoadsMapDataPerMile_1,'<img src="legend/CompareRoadsMapDataPerMile_1.png" /> Service Roads Map Data Per Mile': layer_ServiceRoadsMapDataPerMile_0,},{collapsed:false}).addTo(map);
         setBounds();
         var i = 0;
         layer_ServiceRoadsMapDataPerMile_0.eachLayer(function(layer) {
